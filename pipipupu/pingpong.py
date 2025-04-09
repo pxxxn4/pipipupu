@@ -26,5 +26,6 @@ while True:
     pygame.draw.rect(screen, black, player)
     pygame.draw.rect(screen, black, opp)
     pygame.draw.ellipse(screen, black, ball)
+    pygame.draw.aaline(screen, black, (width/2, 0),(width/2, height))
     pygame.display.flip()
     clock.tick(FPS)
